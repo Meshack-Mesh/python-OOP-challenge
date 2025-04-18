@@ -1,24 +1,40 @@
-# python-OOP-challenge
-Welcome to this week's Python challenge! 🎉
+# 🐶 Python OOP Challenge
+You’ll create a virtual pet with attributes like hunger, energy, and happiness — and teach it tricks too! 🎉
 
-In this challenge, you’ll be creating a virtual pet using Object-Oriented Programming concepts in Python. This fun project will help you practice how to use classes, attributes, methods, and constructors.
+## 🧠 Project Objective
 
- Empty heading
- Empty heading
-🧠 Objective
-Create a class called Pet with the following:
+Create a `Pet` class with the ability to eat, sleep, play, and learn tricks. This challenge helps reinforce key OOP concepts including:
 
-Attributes:
-name: the name of your pet
-hunger: an integer representing hunger level (0 = full, 10 = very hungry)
-energy: an integer representing energy level (0 = tired, 10 = fully rested)
-happiness: an integer (0–10)
-Methods:
-eat(): reduces hunger by 3 points (but not below 0), and increases happiness by 1.
-sleep(): increases energy by 5 points (but not above 10).
-play(): decreases energy by 2, increases happiness by 2, and increases hunger by 1.
-get_status(): prints the current state of the pet.
-Bonus 🎯
-Add a method train(trick) that teaches your pet a new trick and stores it in a list.
-Add a method show_tricks() that prints all learned tricks.
- 
+- Classes and Objects
+- Attributes and Methods
+- Constructors (`__init__`)
+- Encapsulation
+- Basic List Handling
+
+## 📁 Project Structure
+
+## 🐾 Features
+
+### Attributes:
+- `name`: Pet’s name
+- `hunger`: 0–10 scale (0 = full, 10 = starving)
+- `energy`: 0–10 scale (0 = exhausted, 10 = energetic)
+- `happiness`: 0–10 scale (0 = sad, 10 = very happy)
+- `tricks`: a list to store learned tricks
+
+### Methods:
+- `eat()`: Reduces hunger and increases happiness
+- `sleep()`: Boosts energy
+- `play()`: Decreases energy, increases happiness and hunger
+- `train(trick)`: Teaches the pet a new trick
+- `show_tricks()`: Displays all learned tricks
+- `get_status()`: Shows the current status of the pet
+Lola is eating...
+Lola is playing...
+Lola is sleeping...
+Lola's current status:
+Hunger: 2
+Energy: 8
+Happiness: 9
+Tricks: ['roll over', 'play dead']
+
